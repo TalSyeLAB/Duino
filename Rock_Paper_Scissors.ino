@@ -27,14 +27,16 @@ void setup() {
   pinMode(10, INPUT);
   pinMode(12, OUTPUT);
 
-  servo_3.attach(3);
-  servo_6.attach(6);
-  servo_9.attach(9);
+  servo_3.attach("INSERT PIN NUMBER"); 
+  servo_6.attach("INSERT PIN NUMBER");
+  servo_9.attach("INSERT PIN NUMBER");
+
+  // pick three pins to connect to servo
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-  if (checkdistance_11_10() < 20) {
+  // pick what distance the sensor will initiate the program (Between 25 and 35 preferred)
+  if (checkdistance_11_10() < "PICK DISTANCE FROM MOTION") {
     A = random(0,4);
     switch (A) {
       case 1:
