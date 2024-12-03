@@ -45,7 +45,7 @@ void loop() {
       noTone(12);
       servo_3.write(179);
       delay(1000);
-      servo_3.write(90);
+      servo_3.write("ANGLE"); //Pick a rotation angle  between 89 and 120
       delay(500);
       break;
 
@@ -55,7 +55,7 @@ void loop() {
       noTone(12);
       servo_6.write(179);
       delay(1000);
-      servo_6.write(90);
+      servo_6.write('ANGLE"); //Pick a rotation angle  between 89 and 120
       delay(500);
       break;
 
@@ -65,9 +65,11 @@ void loop() {
       noTone(12);
       servo_9.write(179);
       delay(1000);
-      servo_9.write(90);
+      servo_9.write("ANGLE"); //Pick a rotation angle  between 89 and 120
       delay(500);
       break;
+      
+      //We have three different cases, each representing a possible outcome of the game
     }
   }
 }
