@@ -43,9 +43,9 @@ void loop() {
       tone(12, 131);
       delay(100);
       noTone(12);
-      servo_3.write(179);
+      servo_3.write("ANGLE");
       delay(1000);
-      servo_3.write("ANGLE"); //Pick a rotation angle  between 89 and 120
+      servo_3.write(90); //Pick a rotation angle  between 170 and 190
       delay(500);
       break;
 
@@ -53,9 +53,9 @@ void loop() {
       tone(12, 131);
       delay(100);
       noTone(12);
-      servo_6.write(179);
+      servo_6.write("ANGLE");
       delay(1000);
-      servo_6.write('ANGLE"); //Pick a rotation angle  between 89 and 120
+      servo_6.write(90); //Pick a rotation angle  between 170 and 190
       delay(500);
       break;
 
@@ -63,9 +63,9 @@ void loop() {
       tone(12, 131);
       delay(100);
       noTone(12);
-      servo_9.write(179);
+      servo_9.write("ANGLE");
       delay(1000);
-      servo_9.write("ANGLE"); //Pick a rotation angle  between 89 and 120
+      servo_9.write(90); //Pick a rotation angle  between 170 and 190
       delay(500);
       break;
       
